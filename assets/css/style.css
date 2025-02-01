@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
+:root {
+  --swiper-pagination-color: #AE9F86;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'Tajawal', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #945B3D;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ----------------- */
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0.5rem 5rem;
+  }
+}
+
+/* ******************** */
+.hero-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-1 {
+  background-image: linear-gradient(rgba(148, 91, 61, 0.8), rgba(148, 91, 61, 0.8)), url('../images/banner.webp');
+}
+
+.slide-2 {
+  background-image: linear-gradient(rgba(174, 159, 134, 0.8), rgba(174, 159, 134, 0.8)), url('../images/banner2.webp');
+}
